@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cdcdcd;
+}
+div.header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(47,47,47,0.98);
+}
+div.content {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+div.section {
+  width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+div.header-section {
+  padding: 10px 0;
+}
+div.list-section {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+div.footer-section {
+  text-align: center;
+}
+div.footer-section span {
+  padding: 0;
+  margin: 2px;
+  font-size: 14px;
+}
+div.footer-section span.copyright {
+  color: #666;
+}
+div.footer-section span.clear-btn {
+  color: #999;
+  cursor: pointer;
+}
+
+.left, .right {
+  display: inline-block;
+}
+
+.right {
+  float: right;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.main-title {
+  font-size: 22px;
+  color: #eee;
+}
+
+.add-input-box {
+  height: 24px;
+  vertical-align: middle;
+  width: 350px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.24), 0 1px 6px rgba(0,0,0,0.45) inset;
+  text-indent: 10px;
+
+}
+
+input:focus {
+  outline-width: 0;
+}
+
+.count {
+  padding: 0 5px;
+  margin: 0;
+  height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  border: none;
+  border-radius: 20px;
+  background-color: #E6E6FA;
+}
+
+ul {
+  padding: 0;
+  margin: 10px 0;
+  list-style: none;
+}
+
+ul li {
+  line-height: 32px;
+  height: 32px;
+  margin-bottom: 10px; 
+  border-radius: 3px;
+  border-left: 5px solid #629a9c;
+  cursor: move;
+  background-color: #fff;
+  display: list-item;
+  position: relative;
+  padding: 0 45px;
+}
+
+ul li input.checkbox {
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  width: 22px;
+  height: 22px;
+}
+
+ul li p.text {
+  margin: 0;
+  height: 32px;
+}
+ul li p.text input {
+  width: 80%;
+}
+
+ul li span.del-btn {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  display: inline-block;
+  width: 14px;
+  height: 12px;
+  text-align: center;
+  border-radius: 14px;
+  border: 6px double #fff;
+  background-color: #ccc;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+}
+
+ul.done-list {
+  opacity: 0.5;
+}
+
+ul.done-list li {
+  border-left: 5px solid #999;
+}
+
+
+.fade-enter, .fade-appear{
+  opacity: 0;
+}
+.fade-enter-active,.fade-appear-active{
+  opacity: 100%;
+  transition: opacity 1000ms;
+}
+.fade-exit{
+  opacity: 100%;
+}
+.fade-exit-active{
+  opacity: 0;
+  transition: opacity 1000ms;
+}
